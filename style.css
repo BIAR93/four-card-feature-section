@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    color: #4D4F62;
+    background-color: #F2F2F2;
+    font-family: 'Poppins', sans-serif;
+    width: 75%;
+    margin: auto;
+  }
+  
+  header, main {
+    width: 375px;
+    margin: auto;
+  }
+  
+  header {
+    margin-bottom: 30px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-weight: 200;
+    font-size: 1.85rem;
+  }
+  
+  header h2 {
+    font-weight: 600;
+    font-size: 1.85rem;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-weight: 400;
+    font-size: 1.19rem;
+    margin-bottom: 90px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 10px 0 #a8a8a8;
+    margin: auto;
+    margin-bottom: 1.9rem;
+    padding: 2rem;
+    width: 75%;
+  }
+  
+  .card p {
+    margin-bottom: 3.1rem;
+  }
+  
+  .card .img-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  .card.supervisor {
+    border-top: 5px solid #45d3d3;
+  }
+  
+  .card.team-builder {
+    border-top: 5px solid #ea5353;
+  }
+  
+  .card.karma {
+    border-top: 5px solid #fcaf4a;
+  }
+  
+  .card.calculator {
+    border-top: 5px solid #549ef2;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    body, header, main {
+      width: 1440px;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .column {
+      flex: 1;
+      margin: auto;
+    }
+
+    header h1 {
+        font-weight: 200;
+        font-size: 2.75rem;
+      }
+      
+      header h2 {
+        font-weight: 600;
+        font-size: 2.75rem;
+        margin-bottom: 20px;
+      }
+      
+      header p {
+        padding-left: 400px;
+        padding-right: 400px;
+      }
+  }
